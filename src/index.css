@@ -1,13 +1,75 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  width: 400px;
+  padding: 10px 20px;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 10px;
+  box-shadow: 4px 4px 19px black;
+}
+
+.form-container h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  color: black;
+  border: 0.1px solid black;
+  box-shadow: 2px 4px 19px solid black;
+
+}
+
+.dashboard-content {
+  height: 100%;
+  width: 85%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidenav ul li {
+  color: black !important;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sidenav ul li a {
+  width: 100%;
+  color: Black;
+}
+
+.sidenav ul li:hover {
+  color: white;
+  background-color: #60f73a;
+}
+
+h1 {
+  text-align: center;
 }
